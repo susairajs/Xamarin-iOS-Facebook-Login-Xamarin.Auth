@@ -1,0 +1,17 @@
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/facebook-login.png
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/XamariniOSFacebookLogin.exe.mdb
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/XamariniOSFacebookLogin.exe
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/XamariniOSFacebookLogin.exe
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/obj/iPhoneSimulator/Debug/XamariniOSFacebookLogin.exe.mdb
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/Validation.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/PCLCrypto.dll
+/Users/DELPIN/Projects/XamariniOSFacebookLogin/XamariniOSFacebookLogin/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
