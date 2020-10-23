@@ -9,6 +9,8 @@ namespace XamariniOSFacebookLogin
 {
 	public partial class ViewController : UIViewController
 	{
+	        string authUrl = "https://m.facebook.com/dialog/oauth/";
+		string loginSuccessUrl = "http://www.facebook.com/connect/login_success.html";
 		protected ViewController(IntPtr handle) : base(handle)
 		{
 			// Note: this .ctor should not contain any initialization logic.
@@ -17,7 +19,6 @@ namespace XamariniOSFacebookLogin
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
 
@@ -25,14 +26,13 @@ namespace XamariniOSFacebookLogin
 
 		partial void UIButton8_TouchUpInside(UIButton sender)
 		{
-			var auth = new OAuth2Authenticator(
+			var authendication = new OAuth2Authenticator(
 				clientId: "1843461312586790",
 				scope: "",
-				authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
-				redirectUrl: new Uri("http://www.facebook.com/connect/login_success.html"));
-
-			auth.Completed+= Auth_Completed;
-			var ui = auth.GetUI();
+				authorizeUrl: new Uri(authUrl),
+				redirectUrl: new Uri(loginSuccessUrl));
+			authendication.Completed+= Auth_Completed;
+			var ui = authendication.GetUI();
 			PresentViewController(ui, true, null);
 		}
 
@@ -48,12 +48,11 @@ namespace XamariniOSFacebookLogin
 				var fbName = user["name"];
 				var fbCover = user["cover"]["source"];
 				var fbProfile = user["picture"]["data"]["url"];
-
 				lblName.Text = fbName.ToString();
 				imgCover.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(fbCover)));
 				imgProfile.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(fbProfile)));
 			}
-            DismissViewController(true, null);
+                         DismissViewController(true, null);
 		}
 
 		public override void DidReceiveMemoryWarning()
