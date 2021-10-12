@@ -9,6 +9,7 @@ namespace XamariniOSFacebookLogin
 {
 	public partial class ViewController : UIViewController
 	{
+	        // Base Urls 
 	        string authUrl = "https://m.facebook.com/dialog/oauth/";
 		string loginSuccessUrl = "http://www.facebook.com/connect/login_success.html";
 		protected ViewController(IntPtr handle) : base(handle)
@@ -23,7 +24,7 @@ namespace XamariniOSFacebookLogin
 		}
 
 
-
+		// Button event 
 		partial void UIButton8_TouchUpInside(UIButton sender)
 		{
 			var authendication = new OAuth2Authenticator(
@@ -35,7 +36,8 @@ namespace XamariniOSFacebookLogin
 			var ui = authendication.GetUI();
 			PresentViewController(ui, true, null);
 		}
-
+		
+		//Respose method for auth reponse
 		private async void Auth_Completed(object sender, AuthenticatorCompletedEventArgs e)
 		{
 			if (e.IsAuthenticated)
